@@ -1,4 +1,7 @@
-# metalsmith-link-checker
+# @fidian/metalsmith-link-checker
+
+This is forked from [metalsmith-link-checker](https://github.com/emmercm/metalsmith-link-checker)
+with some speed improvements and some local file link resolution bugfixes.
 
 [![npm Version](https://badgen.net/npm/v/metalsmith-link-checker?icon=npm)](https://www.npmjs.com/package/metalsmith-link-checker)
 [![npm Weekly Downloads](https://badgen.net/npm/dw/metalsmith-link-checker)](https://www.npmjs.com/package/metalsmith-link-checker)

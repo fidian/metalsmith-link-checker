@@ -1,15 +1,15 @@
 {
-  "name": "metalsmith-link-checker",
-  "version": "0.5.1",
+  "name": "@fidian/metalsmith-link-checker",
+  "version": "0.5.2",
   "description": "A Metalsmith plugin to check for broken links.",
   "keywords": [
     "metalsmith",
     "metalsmith-plugin",
     "plugin"
   ],
-  "homepage": "https://github.com/emmercm/metalsmith-link-checker#readme",
+  "homepage": "https://github.com/fidian/metalsmith-link-checker#readme",
   "bugs": {
-    "url": "https://github.com/emmercm/metalsmith-link-checker/issues"
+    "url": "https://github.com/fidian/metalsmith-link-checker/issues"
   },
   "license": "GPL-3.0-or-later",
   "author": "Christian Emmer",
@@ -19,7 +19,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emmercm/metalsmith-link-checker.git"
+    "url": "git+https://github.com/fidian/metalsmith-link-checker.git"
   },
   "scripts": {
     "lint": "eslint . --fix || true",
@@ -30,8 +30,8 @@
   },
   "dependencies": {
     "async": "^3.2.4",
-    "cheerio": "^1.0.0-rc.12",
     "deepmerge": "^4.3.0",
+    "linkedom": "^0.14.22",
     "top-user-agents": "^1.0.50"
   },
   "peerDependencies": {

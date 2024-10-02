@@ -1,6 +1,6 @@
 {
   "name": "@fidian/metalsmith-link-checker",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A Metalsmith plugin to check for broken links.",
   "keywords": [
     "metalsmith",
@@ -23,26 +23,24 @@
   },
   "scripts": {
     "lint": "eslint . --fix || true",
-    "reinstall": "rm -rf node_modules && npm install",
+    "reinstall": "rm -rf node_modules package-lock.json && npm install",
     "test": "jest --verbose --coverage && eslint .",
     "test:update": "jest --verbose --coverage --updateSnapshot",
     "test:watch": "jest --verbose --watch",
     "test:junit": "JEST_JUNIT_OUTPUT=reports/junit/results.xml jest --ci --runInBand --reporters=default --reporters=jest-junit"
   },
   "dependencies": {
-    "async": "^3.2.5",
+    "async": "^3.2.6",
     "deepmerge": "^4.3.1",
-    "linkedom": "^0.16.11",
-    "top-user-agents": "^2.1.21"
+    "linkedom": "^0.18.5",
+    "top-user-agents": "^2.1.23"
   },
   "peerDependencies": {
     "metalsmith": "^2.5.1"
   },
   "devDependencies": {
     "assert-dir-equal": "1.1.0",
-    "eslint": "8.57.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "2.29.1",
+    "eslint": "9.11.1",
     "jest": "29.7.0",
     "jest-junit": "16.0.0",
     "metalsmith": "2.6.3"
